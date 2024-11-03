@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <style>
+        body {
+            background-color: #ecf1f1;
+            margin: 0 10%;
+            font-family: sans-serif;
+        }
+
+        .text-with-border {
+            text-align: center;
+            font-weight: bold;
+            border: 2px solid black;
+            padding: 10px;
+            display: inline-block;
+        }
+
+        .placeholder-glow .placeholder {
+            display: inline-block;
+            height: 1rem;
+            background-color: #e0e0e0;
+            border-radius: 4px;
+            animation: placeholder-glow 1.5s infinite;
+        }
+
+        @keyframes placeholder-glow {
+            0% {
+                background-color: #e0e0e0;
+            }
+
+            50% {
+                background-color: #f0f0f0;
+            }
+
+            100% {
+                background-color: #e0e0e0;
+            }
+        }
+
+        h1 {
+            text-align: center;
+            font-family: serif;
+            font-weight: normal;
+            text-transform: uppercase;
+            border-bottom: 1px solid #57b1dc;
+            margin-top: 30px;
+        }
+
+        h4 {
+            text-align: center;
+            font-family: serif;
+            font-weight: normal;
+            text-transform: uppercase;
+            border-bottom: 1px solid red;
+            margin-top: 30px;
+        }
+        h5 {
+            text-align: center;
+            font-family: serif;
+            font-weight: normal;
+            text-transform: uppercase;
+            border-bottom: 1px solid black;
+            margin-top: 30px;
+        }
+        h6 {
+            text-align: center;
+            font-family: serif;
+            font-weight: normal;
+            text-transform: uppercase;
+            border-bottom: 1px solid blue;
+            margin-top: 30px;
+        }
+
+    </style>
+
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark border-bottom border-body" data-bs-theme="dark">
+        <a class="navbar-brand" href="#"></a>
+        
+        <div class="collapse navbar-collapse" id="navbarNav1">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="Index.html">Portada</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="4.1. Protección jurídica.html">4.1. Protección jurídica de los programas de
+                        cómputo.</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="4.2. Implicaciones.html">4.2. Implicaciones.</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="4.3. Criptografía.html">4.3. Criptografía.</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="4.4. Propiedad industrial.html">4.4. Propiedad industrial y derechos de autor</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="4.5. Normatividad.html">4.5. Normatividad internacional.</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="Referencias.html">Referencias</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Criptografía</h1>
+    <p class="text-with-border">Tradicionalmente se ha definido como la parte de la criptología que se ocupa 
+        de las técnicas, bien sea aplicadas al arte o la ciencia, que alteran las representaciones 
+        lingüísticas de mensajes, mediante técnicas de cifrado o codificado, para hacerlos ininteligibles a 
+        intrusos (lectores no autorizados) que intercepten esos mensajes.
+    </p>
+
+    
+
+    <div class="text-center">
+        <img src="img/crip.png" class="rounded" alt="...">
+    </div>
+    <p class="placeholder-glow">
+        <span class="placeholder col-12"></span>
+
+    </p>
+    
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1">Criptología</h4>
+        <p class="text-justify">
+            Disciplina científica que se dedica al estudio de la escritura secreta, es decir, estudia los 
+            mensajes que, procesados de cierta manera, se convierten en difíciles o imposibles de leer por 
+            entidades no autorizadas.
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1">Llaves para descifrado</h4>
+        <p class="text-justify">
+            Asimétrica: Una fórmula matemática que utiliza dos llaves, una pública y otra privada. 
+            La llave pública es accesible para todos, mientras que la llave privada solo puede ser descifrada
+             por su receptor.
+         <p class="text-justify">
+            Simétrica: Utiliza algoritmos para descifrar y encriptar documentos. Son grupos de algoritmos 
+            interrelacionados que mantienen la conexión confidencial de la información.
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1">SHA-256</h4>
+        <p class="text-justify">
+            Secure Hash Algorithm 256-bit, es una función hash criptográfica que convierte texto de cualquier 
+            longitud en una cadena alfanumérica casi única de 256 bits. El resultado se 
+            conoce como valor hash o hash.
+            La clave secreta de encriptación sha 256 se utiliza para la seguridad criptográfica. 
+            Este algoritmo hash se considera extremadamente seguro, ya que produce valores hash irreversibles
+             y únicos.   
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1">Ejemplos</h4>
+        <p class="text-justify">
+            Firmas digitales: Al firmar un mensaje con una firma digital, la función hash SHA 256 crea un 
+            hash del mensaje. El contenido del mensaje puede verificarse sin revelarlo utilizando claves 
+            privadas y públicas independientes creadas durante el cifrado. Esto permite una verificación
+            y comunicación fáciles y seguras.   
+        <p class="text-justify">
+            Protección mediante contraseña: SHA-256 se utiliza para convertir las contraseñas de los usuarios 
+            en un valor hash antes de almacenarlas en una base de datos. Los valores hash se comparan con los 
+            introducidos por el usuario durante la verificación de inicio de sesión. Las contraseñas 
+            permanecen seguras incluso en caso de fuga de datos, ya que los valores hash SHA-256 requieren una 
+            potencia de cálculo astronómica para descifrarlos durante un ataque de fuerza bruta.  
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1">Tipos de algoritmos SHA</h4>
+        <p class="text-justify">
+            SHA-0: Esta fue la primera versión, lanzada en 1993, pero rápidamente se descubrieron 
+            vulnerabilidades y dejó de usarse. De hecho, sus desarrolladores, NSA, nunca revelaron la
+            fuente de la vulnerabilidad, pero sí se retiró de inmediato el algoritmo, para darle paso a la 
+            siguiente generación SHA.
+        <p class="text-justify">
+            SHA-1: Introducido en 1995, se trata de un algoritmo que genera un hash de 160 bits, al igual 
+            que su predecesor el SHA-0. 
+            Aunque fue ampliamente utilizado, se ha demostrado que es vulnerable a ataques de 
+            colisión y ya no se considera seguro para aplicaciones críticas, por lo que fue retirado 
+            después del año 2010.
+        <p class="text-justify">
+            SHA-2: Se trata del estándar que actualmente se considera seguro para la mayoría de las 
+            aplicaciones y es el que utilizan las grandes plataformas de minerías, entre ellas Bitcoin.
+        <p class="text-justify">
+            SHA-3: desarrollado como una alternativa a SHA-2, el SHA-3 utiliza la función de esponja Keccak, 
+            por lo que ofrece una mayor resistencia a ciertos tipos de ataques y es adecuado para 
+            aplicaciones que requieren un nivel adicional de seguridad. 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
